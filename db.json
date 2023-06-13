@@ -1,0 +1,174 @@
+{
+  "users": [
+    {
+      "name": "Extreme",
+      "id": 1
+    },
+    {
+      "name": "Wallace Mills V",
+      "id": 2
+    },
+    {
+      "name": "Antoinette Hoeger",
+      "id": 3
+    },
+    {
+      "name": "Frederick Hartmann",
+      "id": 4
+    }
+  ],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Far Beyond Driven",
+      "userid": 1
+    },
+    {
+      "id": 12,
+      "title": "Heartwork",
+      "userid": 1
+    },
+    {
+      "id": 13,
+      "title": "Slaughter of the Soul",
+      "userid": 1
+    },
+    {
+      "userId": 2,
+      "title": "Bacon",
+      "id": 18
+    },
+    {
+      "userId": 2,
+      "title": "Shirt",
+      "id": 19
+    },
+    {
+      "userId": 2,
+      "title": "Keyboard",
+      "id": 20
+    },
+    {
+      "userId": 1,
+      "title": "Salad",
+      "id": 22
+    },
+    {
+      "userId": 3,
+      "title": "Shirt",
+      "id": 23
+    },
+    {
+      "userId": 3,
+      "title": "Salad",
+      "id": 24
+    },
+    {
+      "userId": 3,
+      "title": "Fish",
+      "id": 25
+    },
+    {
+      "userId": 1,
+      "title": "Table",
+      "id": 26
+    },
+    {
+      "userId": 1,
+      "title": "Computer",
+      "id": 27
+    },
+    {
+      "userId": 1,
+      "title": "Gloves",
+      "id": 28
+    },
+    {
+      "userId": 1,
+      "title": "Salad",
+      "id": 29
+    },
+    {
+      "userId": 4,
+      "title": "Tuna",
+      "id": 30
+    },
+    {
+      "userId": 4,
+      "title": "Sausages",
+      "id": 31
+    },
+    {
+      "userId": 4,
+      "title": "Fish",
+      "id": 32
+    },
+    {
+      "userId": 4,
+      "title": "Sausages",
+      "id": 33
+    },
+    {
+      "userId": 2,
+      "title": "Mouse",
+      "id": 34
+    },
+    {
+      "userId": 4,
+      "title": "Pizza",
+      "id": 35
+    },
+    {
+      "userId": 4,
+      "title": "Cheese",
+      "id": 36
+    },
+    {
+      "userId": 4,
+      "title": "Ball",
+      "id": 37
+    },
+    {
+      "userId": 4,
+      "title": "Fish",
+      "id": 38
+    },
+    {
+      "userId": 4,
+      "title": "Bike",
+      "id": 39
+    },
+    {
+      "userId": 2,
+      "title": "Keyboard",
+      "id": 40
+    },
+    {
+      "userId": 1,
+      "title": "Keyboard",
+      "id": 41
+    },
+    {
+      "userId": 4,
+      "title": "Towels",
+      "id": 42
+    },
+    {
+      "userId": 2,
+      "title": "Soap",
+      "id": 43
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 18,
+      "url": "https://loremflickr.com/640/480?lock=8453280946454528",
+      "id": 1
+    },
+    {
+      "albumId": 18,
+      "url": "https://loremflickr.com/640/480/transport?lock=8692961766277120",
+      "id": 2
+    }
+  ]
+}
