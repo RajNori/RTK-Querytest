@@ -5,14 +5,14 @@ import Skeleton from './Skeleton';
 import PhotosListItem from './PhotosListItem';
 function PhotosList({ album }) {
     useFetchPhotosQuery(album);
-    const {data, isFectching,error} = useFetchPhotosQuery(album);
+    const {data, isFetching, error} = useFetchPhotosQuery(album);
     const [addPhoto, addPhotoResults] = useAddPhotoMutation();
 
     const handleAddPhoto = () => {
         addPhoto(album);
     };
     let content;
-    if (isFectching) {
+    if (isFetching) {
      content = <Skeleton className='h-8 w-8' times={4} />;
     }else if(error){
         content = <p className='text-red-500 font-bold'>Error</p>;
@@ -32,7 +32,7 @@ function PhotosList({ album }) {
                    <GoPlus />
                 </Button>
             </div>
-            <div>{content}</div>
+            <div className='mx-8 flex flex-row flex-wrap justify-center'>{content}</div>
         </div>
     );
 }
